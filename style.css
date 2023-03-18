@@ -1,0 +1,191 @@
+body{
+    background-color: #efefef;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.header-ul > li{
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+.sidenav{
+    width: 15%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 10px;
+}
+.dp{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.personal-details{
+    text-align: center;
+}
+.other-details{
+    margin-left: 20px;
+}
+.languages{
+    margin-left: 20px;
+}
+.skills{
+    margin-left: 20px;
+}
+.cv{
+    width: 120px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #efefef;
+    margin-left: 40px;
+}
+.container{
+    display: flex;
+}
+.main{
+    width: 85%;
+}
+.intro{
+    width: 60%;
+    height: 300px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    display: flex;
+}
+.basics{
+    width: 45%;
+}
+.blue{
+    color: dodgerblue;
+}
+.my-image{
+    width: 55%;
+}
+.hireme{
+    width: 120px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.myimg{
+    width: 250px;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.section{
+    text-align: center;
+}
+.edu{
+    width: 500px;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+.box{
+    width: 80%;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.flexbox{
+    display: flex;
+}
+.inst-details{
+    width: 20%;
+}
+.certificate-details{
+    width: 80%;
+}
+.persons{
+    display: flex;
+    justify-content: center;
+}
+.person1{
+    width: 30%;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.review{
+    opacity: 0.5;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.person-info{
+    display: flex;
+}
+.pic{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.person-details{
+    margin-left: 20px;
+}
+.person-1{
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+    margin-top: 35px;
+    color: black;
+}
+.personal-details p{
+    color: black;
+    opacity: 0.5;
+}
+.cards-container{
+    width: 80%;
+    height: 300px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+    width: 100%;
+}
+.project{
+    width: 300px;
+    height: 300px;
+    background-color: dodgerblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+footer{
+    width: 100%;
+    height:50px;
+    background-color: #fff;
+    padding-top: 10px;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+}
